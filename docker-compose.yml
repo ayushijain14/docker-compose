@@ -7,7 +7,7 @@ services:
                - "80:80"
            depends_on:
                - nopcommerce_database
-       nopcommerce_database:
+      nopcommerce_database:
            image: "microsoft/mssql-server-linux"
            container_name: nopcommerce_mssql_server
            environment:
